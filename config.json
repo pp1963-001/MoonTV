@@ -6,6 +6,11 @@
       "name": "电影天堂资源",
       "detail": "http://caiji.dyttzyapi.com"
     },
+    "bwzy": {
+         "api": "https://api.bwzyz.com/api.php/provide/vod",
+         "name": "百万资源",
+     },
+
     "heimuer": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
       "name": "黑木耳",
