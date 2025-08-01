@@ -224,7 +224,7 @@ const UserConfig = ({ config, role, refreshConfig }: UserConfigProps) => {
   const handleShowChangePasswordForm = (username: string) => {
     setChangePasswordUser({ username, password: '' });
     setShowChangePasswordForm(true);
-    setShowAddUserForm(false); // 关闭添加用户表单
+    setShowAddUserForm(true); // 关闭添加用户表单
   };
 
   const handleDeleteUser = async (username: string) => {
